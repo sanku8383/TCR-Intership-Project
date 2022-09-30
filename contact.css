@@ -1,0 +1,134 @@
+img {
+    padding: auto;
+    margin: 0px;
+    height: 350px;
+    width: 100%;
+}
+
+.nav img{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav span{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 28px;
+    color: black;
+    margin-top: 50px;
+}
+
+.nav{
+    width: 100%;
+    height: 0px;
+    background:rgba(0,0,0,0.5);
+    box-shadow: 0 5px 20px #000;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 15px 15px;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.nav ul li a{
+    font-size: 22px;
+    color: rgb(48, 57, 57);
+    text-decoration: none;
+}
+
+li:hover{
+    border-radius: 2px solid #fff;
+    transition: .5s;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.nav ul{
+    list-style-type:none;
+    margin: -50px 0px 60px 200px;
+}
+
+.container {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.row>* {
+    border: 1px solid black;
+    height: 270px;
+    padding: 15px 20px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #b48f8f;
+}
+
+#contact {
+    position: relative;
+    margin-top: 20px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('client.jpg') no-repeat center center/cover;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(199, 12, 12);
+}
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}

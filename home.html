@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page: TCR Final Project</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Libre+Baskerville&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="home.css">
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">        
+          <input type="checkbox" id="chk">
+          <label for="chk"> <i class="fas fa-bars"></i> </label>
+          <div class="nav">
+              <label for="chk"> <i class="fas fa-bars"></i> </label>
+              <img src="logo.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp; <span> CSY</span>
+              
+              <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="About_Us.html">About us</a></li>
+                  <li><a href="Inventory.html">Inventory</a></li>
+                  <li><a href="ourServices.html">Our Services</a></li>
+                  <li><a href="contact_us.html">Contact</a></li>
+                  <div class="login"><a href="LogIn.html">Login</a></div>
+                  <div class="signup"><a href="SignUp.html">Sign Up</a></div>
+              </ul>
+              
+          </div>
+
+          
+          <div class="slider">
+                         
+              <div class="slides">
+            
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+
+            <div class="content">
+              <svg width="100%" height="100%"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" >
+                <path id="path">
+                   <animate attributeName="d" from="m0,60 h0" to="m0,110 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
+                 </path>
+                 <text font-size="28"font-family="Montserrat" fill="white">
+                   <textPath xlink:href="#path">Welcome to our CSY company 🔥
+                   </textPath>
+                 </text>
+                 
+               </svg>
+              <!-- <h1>Future Cars</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem inventore explicabo neque laudantium facilis accusamus distinctio ea, labore odio ratione.</p> -->
+            </div>
+            <!--slide images start-->
+            <div class="slide first">
+              <img src="http://prod-upp-image-read.ft.com/a4e8f394-313b-11ea-a329-0bcf87a328f2" alt="">
+            </div>
+            <div class="slide">
+              <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+            </div>
+            <div class="slide">
+              <img src="http://prod-upp-image-read.ft.com/a4e8f394-313b-11ea-a329-0bcf87a328f2" alt="">
+            </div>
+            <div class="slide">
+              <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+          
+          <!--manual navigation start-->
+          <!-- <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div> -->
+          <!--manual navigation end-->
+        </div>
+      </div>
+      
+        
+        <!--image slider start-->
+      <!--image slider end-->
+  
+      
+    
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+
+  </body>
+</html>
+      
